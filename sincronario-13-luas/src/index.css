@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-radial-cosmos min-h-screen text-maya-branco;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-white/10 bg-cosmos-nebula/60 p-6 shadow-lg backdrop-blur-sm;
+  }
+  .pill {
+    @apply rounded-full px-3 py-1 text-sm font-semibold;
+  }
+  .btn-primary {
+    @apply rounded-full bg-cosmos-gold px-6 py-3 font-display font-semibold text-cosmos-deep transition hover:opacity-90;
+  }
+}
