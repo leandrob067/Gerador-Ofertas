@@ -1,5 +1,12 @@
 # Ruflo — Claude Code Configuration
 
+## Regra principal deste projeto
+
+- Usar o Ruflo em TODAS as tarefas: alteração do app, geração de imagens, posts/copies, edição de vídeo e qualquer outra.
+- Antes de executar, consultar o Ruflo (MCP `claude-flow` ou CLI `ruflo hooks route --task "..."`) para escolher agentes, skills e memória; depois executar.
+- Ao concluir, registrar o aprendizado com `ruflo memory store`.
+- Se o Ruflo não estiver disponível, avisar o usuário e seguir com a tarefa.
+
 ## Rules
 
 - Do what has been asked; nothing more, nothing less

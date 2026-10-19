@@ -7,3 +7,5 @@ console/
 *.log
 *.tmp
 mods/session.json
+harness-active-policy.json
+policy/

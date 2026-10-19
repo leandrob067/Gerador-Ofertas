@@ -8,3 +8,5 @@
 .swarm/
 ruvector.db
 .claude/settings.json.bak-*
+.claude/proven-config.json
+.claude/.proven-config-version
