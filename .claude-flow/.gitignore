@@ -1,0 +1,11 @@
+# Claude Flow runtime files
+data/
+logs/
+sessions/
+neural/
+console/
+*.log
+*.tmp
+mods/session.json
+harness-active-policy.json
+policy/
